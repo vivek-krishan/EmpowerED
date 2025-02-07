@@ -46,6 +46,5 @@
     "socket.io-client": "^4.7.5",
     "tailwind-merge": "^2.2.1"
   },
-  "main": "jest.config.js",
   "description": ""
 }
