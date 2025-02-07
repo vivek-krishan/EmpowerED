@@ -6,7 +6,7 @@ import { ToastContainer } from "react-custom-alert";
 import io from "socket.io-client";
 import Home from "./components/Home";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Contact from "./components/contact";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
 import Teachers from "./components/AllTeachers";
@@ -63,7 +63,7 @@ const appRouter = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
-    errorElement: "",
+    errorElement: <Error />,
     children: [
       {
         path: "/",
@@ -75,7 +75,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/room",
-        element: <FormPage socket={socket}  />,
+        element: <FormPage socket={socket} />,
       },
       {
         path: "/room/:roomId",
