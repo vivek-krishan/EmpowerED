@@ -3,10 +3,7 @@ import { achivements } from "../utils/Achivements";
 import { TestimonialStack } from "../utils/Testimonial-card-stack";
 import { Link } from "react-router-dom";
 import Lottie from "lottie-web";
-
 import { useEffect, useRef } from "react";
-import { useEffect } from "react";
-import { images } from "../utils/image";
 
 const StudentProfile = () => {
   // Constants

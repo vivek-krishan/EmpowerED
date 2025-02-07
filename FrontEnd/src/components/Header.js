@@ -1,8 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Buttons from "../utils/Buttons";
-import { useState } from "react";
-import { FilePenLine } from "lucide-react";
 
 const Header = () => {
   const navigate = useNavigate();

@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { images } from "../utils/image";
 import { useState } from "react";
 import { ChevronDown, MousePointerClick } from "lucide-react";
-import { alertSuccess, alertError, alertInfo } from "../utils/Alert";
+import { alertSuccess, alertError } from "../utils/Alert";
 
 const TeacherRegisterPage = () => {
   // All Variables declaration for this components

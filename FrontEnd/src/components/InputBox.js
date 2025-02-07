@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import { SendHorizontal } from "lucide-react";
 import { useDispatch } from "react-redux";
 import { addBotReply, addSearchMessage } from "../utils/searchSlice";

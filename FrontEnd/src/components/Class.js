@@ -3,7 +3,7 @@ import { images } from "../utils/image";
 import ConnectMemberCard from "./ConnectedMemberCard";
 import Chats from "./Chats";
 import InputBox from "./InputBox";
-import Canvas from "./whiteBoard/Canvas";
+import Canvas from "./whiteBoard/Canvas/index";
 
 const Class = () => {
   // All State Variables

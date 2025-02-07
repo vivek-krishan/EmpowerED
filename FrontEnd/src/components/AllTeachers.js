@@ -1,8 +1,4 @@
-import { useEffect } from "react";
-import Buttons from "../utils/Buttons";
 import { ThreeDCard } from "../utils/ThreeDCard";
-import Header from "./Header";
-import ProfileCard from "./profileCard";
 import { images } from "../utils/image";
 import { useNavigate } from "react-router-dom";
 

@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import Header from "./Header";
-import { images } from "../utils/image";
 import Lottie from "lottie-web";
 import Buttons from "../utils/Buttons";
 import { useNavigate } from "react-router-dom";

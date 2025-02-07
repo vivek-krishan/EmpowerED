@@ -1,10 +1,5 @@
-import { Link, useNavigate } from "react-router-dom";
-import { images } from "../utils/image";
 import { useState, useRef, useEffect } from "react";
 import Lottie from "lottie-web";
-
-import ApiError from "../../../BackEnd/src/utils/ApiError";
-import { ChevronDown, MousePointerClick } from "lucide-react";
 import Buttons from "../utils/Buttons";
 
 const Enquiry = () => {

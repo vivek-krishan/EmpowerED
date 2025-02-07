@@ -1,7 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { images } from "../utils/image";
 import { useState } from "react";
-import ApiError from "../../../BackEnd/src/utils/ApiError";
 import { ChevronDown, MousePointerClick } from "lucide-react";
 import { alertError, alertSuccess } from "../utils/Alert";
 

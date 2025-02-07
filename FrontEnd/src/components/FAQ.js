@@ -1,6 +1,5 @@
-import Header from "./Header";
 import { question_answer } from "../utils/FAQ_qa";
-import Q_A_Component from "./q_a_components";
+import Q_A_Component from "./Q_A_Components";
 import { useEffect, useRef } from "react";
 import Lottie from "lottie-web";
 

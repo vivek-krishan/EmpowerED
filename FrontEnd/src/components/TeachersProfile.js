@@ -1,6 +1,5 @@
 import Buttons from "../utils/Buttons";
 import { ListOfQuailification } from "../utils/ListOfQualification";
-import Header from "./Header";
 import { images } from "../utils/image";
 import { useState } from "react";
 import VideoPopUp from "./VideoPop";
